@@ -1,0 +1,23 @@
+# Python virtual environments & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment credentials
+.env
+
+# Kaggle / TMDB cache & data
+.cache/
+tmdb_cache.json
+models/*.pkl
+!models/.gitkeep
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit local state

@@ -1,0 +1,30 @@
+{
+  "num_movies": 4803,
+  "vocab_size": 7500,
+  "matrix_shape": [
+    4803,
+    7500
+  ],
+  "columns": [
+    "movie_id",
+    "title",
+    "release_year",
+    "release_date",
+    "genres",
+    "keywords",
+    "cast",
+    "director",
+    "overview",
+    "popularity",
+    "vote_average",
+    "vote_count",
+    "tags"
+  ],
+  "version": "1.0.0",
+  "max_features": 7500,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "training_time_sec": 6.63
+}
